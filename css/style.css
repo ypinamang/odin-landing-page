@@ -7,8 +7,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
-  display: flex;
+  font-family: "Montserrat", sans-serif;
   background-color: hsl(240, 60%, 95%);
 }
 
@@ -18,8 +17,9 @@ body {
   gap: 72px;
   padding: 0 106px;
   padding-bottom: 72px;
-  height: 400px;
+  min-height: 400px;
   min-width: 100vw;
+  margin-bottom: 36px;
 }
 
 .logo-text {
@@ -47,7 +47,7 @@ body {
 
 .hero {
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 
 .hero-main {
@@ -99,5 +99,8 @@ body {
 .info-heading {
   font-size: 36px;
   color: hsl(215, 28%, 17%);
+  font-weight: 900;
+  text-align: center;
+  margin-top: 16px;
   font-weight: 900;
 }
